@@ -1,54 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Respira Livre - Pare o Vape. Respire de Verdade.</title>
-  <style>
-    :root {
-      --azul: #6ec1e4;
-      --verde: #7ed957;
-      --branco: #ffffff;
-      --cinza: #f5f5f5;
-      --texto: #333;
-    }
-
-    body {
-      font-family: "Poppins", sans-serif;
-      margin: 0;
-      background: var(--cinza);
-      color: var(--texto);
-    }
-
-    header {
-      background: linear-gradient(90deg, var(--azul), var(--verde));
-      color: var(--branco);
-      text-align: center;
-      padding: 60px 20px;
-    }
-
-    header h1 {
-      font-size: 2.5em;
-      margin: 0;
-    }
-
-    header p {
-      font-size: 1.2em;
-    }
-
-    .cta-btn {
-      background: var(--branco);
-      color: var(--azul);
-      border: none;
-      padding: 15px 25px;
-      border-radius: 30px;
-      font-weight: bold;
-      cursor: pointer;
-      margin-top: 15px;
-    }
-
-    section {
-      padding: 50px 20px;
-      text-align: center;
-      background: var(--branco);
-      marg
+respira-livre/      ← raiz do projeto
+├── index.html       ← obrigatório
+├── style.css        ← opcional
+└── images/          ← pasta de imagens
+    ├── logo.png
+    └── banner.jpg
